@@ -1,0 +1,85 @@
+.navbar 
+{
+    width: 283px;
+    height: 895px;
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+}
+
+.LogoNav
+{
+    padding-top: 33px;
+}
+
+li
+{
+    height: 40px;
+    line-height: 20px;
+    font-size: 14px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 1px;
+    vertical-align: middle;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+li .active 
+{
+    background-color: #9b886a;
+    color: #1a1a1a;
+    font-weight: bold;
+}
+
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 0 0;
+    text-align: center;
+    height: 410px;
+    vertical-align: middle;
+}
+
+.RefNav 
+{
+    padding: 10px;
+    line-height: 20px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.place 
+{   
+    width: 283px;
+    height: 42px;
+    bottom: 50px;
+    position: absolute;
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+}
+
+.Icon 
+{
+    width: 30px;
+    margin-left: 10px;
+    color: #9b886a;
+}
+
+.links-place
+{
+    margin-left: 10px;
+    width: 160px;
+}
+
+.RefNav2 
+{
+    color: #9b886a;
+    font-size: 14px;
+}
