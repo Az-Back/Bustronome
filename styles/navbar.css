@@ -12,8 +12,10 @@
     padding-top: 33px;
 }
 
-li
-{
+.TextNav
+{   
+    z-index: 10;
+    width: 283px;
     height: 40px;
     line-height: 20px;
     font-size: 14px;
@@ -27,14 +29,70 @@ li
     text-align: center;
 }
 
-li .active 
+
+.lala 
+{
+    width: 0%;
+    height: 40px;
+    
+}
+
+.lala:hover,.lala:focus 
+{
+    z-index: 0;
+    width: 100%;
+    background-color: #333;
+    animation: place 0.5s linear;
+}
+
+@keyframes place 
+{
+    0%
+    {
+        width: 0%;
+    }
+
+    100%
+    {
+        width: 100%;
+    }
+}
+
+.lolo
+{
+    width: 283px;
+    height: 40px;
+}
+
+.lolo:hover 
+{
+    z-index: 0;
+    width: 100%;
+    background-color: #333;
+    animation: ploce 0.2s linear forwards;
+}
+
+@keyframes ploce
+{
+    0%
+    {
+        width: 0%;
+    }
+
+    100%
+    {
+        width: 100%;
+    }
+}
+
+.RefNav.active 
 {
     background-color: #9b886a;
     color: #1a1a1a;
     font-weight: bold;
 }
 
-ul 
+.highlist 
 {
     list-style-type: none;
     margin: 0;
@@ -51,6 +109,16 @@ ul
     display: block;
     color: white;
     text-decoration: none;
+}
+
+.RefNav:hover
+{
+    color: #9b886a;
+}
+
+.RefNav.active:hover
+{
+    color: black;
 }
 
 .place 

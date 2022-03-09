@@ -4,4 +4,48 @@ body
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.select 
+{
+    width: 200px;
+    height: 49px;
+    position: absolute;
+    top: 44px;
+    right: 53px;
+}
+
+#select-lang {
+    font-family: 'Open Sans', sans-serif;
+    width: 200px;
+    height: 49px;
+    position: absolute;
+    top: 44px;
+    right: 53px;
+    border: 1px solid rgba(157,157,157,0.4);
+    /* background-color: rgba(0,0,0,0.50); */
+    background-color: #000000;
+    color: #a59372;
+    font-size: 1.125rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url(../images/ic-select.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    opacity: 0.5;
+}
+
+button{
+    width: 10px;
+    height: 10px;
+    color: red;
+    background-color: green;
 }

@@ -4,26 +4,26 @@
   <div class="LogoNav">
     <a href="https://www.bustronome.com./fr/"><img class="LogoNavImage" src="../images/logo.png"></a>
 </div>
-  <ul>
-    <li class="TextNav"><a class="RefNav active" href="">RÉSERVEZ MAINTENANT</a></li>
+  <ul class="highlist">
+    <div class="lolo"><li class="TextNav"><a class="RefNav active" href="">RÉSERVEZ MAINTENANT</a></li></div>
     
-    <li class="TextNav"><a class="RefNav" href="">☆ CARTE CADEAU ☆</a></li>
+    <div class="lala"><li class="TextNav"><a class="RefNav" href="">☆ CARTE CADEAU ☆</a></li></div>
     
-    <li class="TextNav"><a class="RefNav" href="">LES OFFRES</a></li>
+    <div class="lala"><li class="TextNav"><a class="RefNav" href="">LES OFFRES</a></li></div>
     
-    <li class="TextNav"><a class="RefNav" href="">LE CONCEPT</a></li>
+    <div class="lala"><li class="TextNav"><a class="RefNav" href="">LE CONCEPT</a></li></div>
     
-    <li class="TextNav"><a class="RefNav" href="">PRIVATISATION</a></li>
+    <div class="lala"><li class="TextNav"><a class="RefNav" href="">PRIVATISATION</a></li></div>
     
-    <li class="TextNav"><a class="RefNav" href="">ACTUALITÉS DU BUS</a></li>
+    <div class="lala"><li class="TextNav"><a class="RefNav" href="">ACTUALITÉS DU BUS</a></li></div>
     
-    <li class="TextNav"><a class="RefNav" href="">LE BLOG</a></li>
+    <div class="lala"><li class="TextNav"><a class="RefNav" href="">LE BLOG</a></li></div>
     
-    <li class="TextNav"><a class="RefNav" href="">PHOTOS ET VIDÉOS</a></li>
+    <div class="lala"><li class="TextNav"><a class="RefNav" href="">PHOTOS ET VIDÉOS</a></li></div>
     
-    <li class="TextNav"><a class="RefNav" href="">QUESTIONS FRÉQUENTES</a></li>
+    <div class="lala"><li class="TextNav"><a class="RefNav" href="">QUESTIONS FRÉQUENTES</a></li></div>
     
-    <li class="TextNav"><a class="RefNav" href="">CONTACTEZ LE BUSTRONOME PARIS</a></li>
+    <div class="lala"><li class="TextNav"><a class="RefNav" href="">CONTACTEZ LE BUSTRONOME PARIS</a></li></div>
   </ul>
   <div class="place">
     <div class="Icon"><i class="fa-solid fa-location-dot fa-3x"></i></div>

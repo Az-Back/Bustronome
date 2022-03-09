@@ -11,6 +11,11 @@
     <title>Paris</title>
 </head>
 <body>
-<?php include '../includes/navbar.php'; ?>
+<?php include '../includes/navbar.php'; ?> 
+        <select id="select-lang" class="chosen-lang">
+                <option data-url="https://www.bustronome.com/fr/paris"  selected>Paris</option>
+                <option data-url="https://www.bustronome.com/fr/londres" >Londres</option>    
+        </select>
+<?php include '../includes/footer.php'; ?>
 </body>
 </html>
