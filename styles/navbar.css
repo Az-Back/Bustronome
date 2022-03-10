@@ -1,10 +1,12 @@
-.navbar 
+.navbar1 
 {
     width: 283px;
     height: 895px;
     background-color: #1a1a1a;
     color: white;
     text-align: center;
+    position: fixed;
+    z-index: 10;
 }
 
 .LogoNav
@@ -37,7 +39,7 @@
     
 }
 
-.lala:hover,.lala:focus 
+.lala:hover
 {
     z-index: 0;
     width: 100%;
@@ -45,7 +47,7 @@
     animation: place 0.5s linear;
 }
 
-@keyframes place 
+ @keyframes place 
 {
     0%
     {
@@ -62,27 +64,6 @@
 {
     width: 283px;
     height: 40px;
-}
-
-.lolo:hover 
-{
-    z-index: 0;
-    width: 100%;
-    background-color: #333;
-    animation: ploce 0.2s linear forwards;
-}
-
-@keyframes ploce
-{
-    0%
-    {
-        width: 0%;
-    }
-
-    100%
-    {
-        width: 100%;
-    }
 }
 
 .RefNav.active 
@@ -127,7 +108,6 @@
     height: 42px;
     bottom: 50px;
     position: absolute;
-    margin-bottom: 70px;
     text-align: center;
     font-size: 14px;
     display: flex;

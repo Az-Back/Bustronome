@@ -11,11 +11,29 @@
     <title>Paris</title>
 </head>
 <body>
-<?php include '../includes/navbar.php'; ?> 
-        <select id="select-lang" class="chosen-lang">
-                <option data-url="https://www.bustronome.com/fr/paris"  selected>Paris</option>
-                <option data-url="https://www.bustronome.com/fr/londres" >Londres</option>    
-        </select>
+<div class="container1">
+<?php include '../includes/navbar.php'; ?>
+<div class="carousel">
+      <div class="carousel_inner">
+         <div class="carousel_item carousel_item__active">
+            <img src="../images/bus.jpg" alt="" class="carousel_img">
+         </div>
+         <div class="carousel_item">
+            <img src="../images/repas.jpg" alt="" class="carousel_img">
+         </div>
+         <div class="carousel_item">
+            <img src="../images/tour.jpg" alt="" class="carousel_img">
+         </div>
+      </div>
+   </div>
+</div>
+<form>
+                <select name="selectCity" id="selectCity">
+                    <option value="paris">Paris</option>
+                    <option value="londres">Londres</option>
+                </select>
+</form>  
 <?php include '../includes/footer.php'; ?>
+<script src="../script/script.js"></script>
 </body>
 </html>

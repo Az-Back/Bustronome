@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../styles/navbar.css">
 <script src="https://kit.fontawesome.com/10a6ffe905.js" crossorigin="anonymous"></script>
-<nav class="navbar">
+<nav class="navbar1">
   <div class="LogoNav">
     <a href="https://www.bustronome.com./fr/"><img class="LogoNavImage" src="../images/logo.png"></a>
 </div>
