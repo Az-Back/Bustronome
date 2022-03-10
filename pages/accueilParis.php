@@ -16,7 +16,7 @@
 <div class="carousel">
       <div class="carousel_inner">
          <div class="carousel_item carousel_item__active">
-            <img src="../images/bus.jpg" alt="" class="carousel_img">
+            <img src="../images/Bustronome1.jpg" alt="" class="carousel_img">
          </div>
          <div class="carousel_item">
             <img src="../images/repas.jpg" alt="" class="carousel_img">

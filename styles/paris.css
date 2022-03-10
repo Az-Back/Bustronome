@@ -9,6 +9,7 @@ body
     overflow: hidden;
     box-sizing: border-box;
     z-index: auto;
+    background-color: #222;
 }
 
 
@@ -72,7 +73,7 @@ form
 }
 
 .carousel_item__next{
-  transform: translateX(-100%);
+  transform: scale(0);
   transition: transform .5s ease-in-out;
 }
 
@@ -88,7 +89,7 @@ form
   transition: opacity .5s ease-in-out;
 }
 
-.carousel__fade .carousel_item__active.carousel_item__next{
+ .carousel__fade .carousel_item__active.carousel_item__next{
   opacity: 0;
 }
 
